@@ -13,3 +13,9 @@ v1.1
 - uses youtubemp3api to get mp3 file stream
 - shouls have a front-end with a search box that returns the list of results
 - hotword plays "im feeling lucky" result
+
+v1.2
+
+- pafy apparently does query to mp3 directly from youtibe too
+- vlc can stream from both mp3 solutions and includes player functions
+- maybe vlc has a queue ?
