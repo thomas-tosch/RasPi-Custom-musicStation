@@ -10,7 +10,7 @@ class Youtube:
 
     @property
     def endpoint(self):
-        return 'https://www.googleapis.com/youtube/v3/'
+        return "https://www.googleapis.com/youtube/v3/"
 
     def get_one(self, query):
         result = requests.get(self.endpoint + 'search', params={
