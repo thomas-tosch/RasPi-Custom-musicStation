@@ -1,7 +1,7 @@
 #!/raspi/bin/python
 import time
 import vlc
-from youtube import Youtube as ytb
+from youtube import Youtube
 
 
 def play_vlc(audio_url):
@@ -17,9 +17,9 @@ def play_vlc(audio_url):
 
 
 def main():
+    ytb = Youtube()
     url = ytb.get_one('thunderstruck')
     pafy = ytb.get_audio(url)
-    ytb.
     play_vlc(pafy)
 
 
