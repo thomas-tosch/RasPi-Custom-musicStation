@@ -1,4 +1,3 @@
-#!/raspi/bin/python
 import threading
 import time
 from list import List
